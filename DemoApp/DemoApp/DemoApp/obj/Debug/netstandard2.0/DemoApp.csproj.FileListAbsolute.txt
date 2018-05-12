@@ -1,0 +1,9 @@
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.csprojAssemblyReference.cache
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.csproj.CoreCompileInputs.cache
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.AssemblyInfoInputs.cache
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.AssemblyInfo.cs
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.dll
+C:\DemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netstandard2.0\DemoApp.pdb
+C:\DemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netstandard2.0\DemoApp.deps.json
+C:\DemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netstandard2.0\DemoApp.dll
+C:\DemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netstandard2.0\DemoApp.pdb

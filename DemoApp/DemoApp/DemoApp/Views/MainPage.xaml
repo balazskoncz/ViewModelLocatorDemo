@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoApp"
+             xmlns:locator="clr-namespace:DemoApp.Locator"
+             x:Class="DemoApp.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <locator:ViewModelLocator x:Key="Locator"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout BindingContext="{Binding Source={StaticResource Locator}, Path=Main }">
+
+        <Label Text="{Binding Model.Title}" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+
+        <Button x:Name="PersonButton"
+                Text="Person"
+                Clicked="PersonButton_Clicked"/>
+
+        <Button x:Name="PlanetsButton"
+                Text="Planets"
+                Clicked="PlanetsButton_Clicked"/>
+
+        <Button x:Name="StarshipButton"
+                Text="Starship"
+                Clicked="StarShipButton_Clicked"/>
+    </StackLayout>
+</ContentPage>
